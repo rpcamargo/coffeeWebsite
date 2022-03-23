@@ -1,13 +1,71 @@
 :root {
     --color-primary: #C08267;
     --color-secondary: #A0583C;
+    --color-third: #FFFADA;
     --color-aux: #CCB9B1;
+    --color-text: #EFEFF5;
 }
 
+.section--one {
+    color: var(--color-text);
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(33, 33, 35, 0.8) -35.49%, rgba(192, 130, 103, 0) 124.72%);;
+}
+.header {
+    position: relative;
+    z-index: 2;
+}
+.section--one-img {
+    height: inherit;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.section--one-menu:hover {
+    text-decoration: none;
+    list-style: none;
+}
 
 .color-primary {
     background-color: var(--color-primary);
 }
+.color-primary--text {
+    color: var(--color-primary);
+}
 .color-secondary {
-    color: white;
+    background-color: var(--color-secondary);
+}
+.color--text-aux {
+    color: var(--color-aux);
+}
+.color--third {
+    background-color: var(--color-third);
+}
+
+.color--text {
+    color: var(--color-text);
+    text-decoration: none;
+    list-style: none;
+}
+.color--text:hover {
+    color: var(--color-primary);
+    text-decoration: none;
+    list-style: none;
+}
+
+.section--one-text {
+    position: relative;
+    z-index: 2;
+}
+.color--button-gradient {
+    background: linear-gradient(90deg, var(--color-secondary) 0%, var(--color-primary) 100%);
+border-radius: 18px;
+}
+
+
+.bar--secondary {
+    border: 3px solid var(--color-secondary);
+    height: 0;
 }

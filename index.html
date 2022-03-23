@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,28 +8,39 @@
     <title>Coffee Website</title>
 
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
-<body class="color-primary">
-    <section>
-        <header class="d-flex justify-content-between align-items-center bg-secondary">
-            <div class="p-2">CoffeeName</div>
-            <nav>
-                <ul class="d-flex nav justify-content-around w-100  bg-success">
-                    <a href="" class="p-2"><li class="w-50">Home</li></a>
-                    <a href="" class="p-2 pl-5"><li>Explore Us</li></a>
-                    <a href="" class="p-2 pl-5"><li>Brands</li></a>
-                    <a href="" class="p-2 pl-5"><li>Contact us</li></a>
+
+<body class="color--third">
+    <section class="container d-flex flex-column section--one" id="1">
+        <header class="header d-flex justify-content-between pt-4">            
+            <div class=" color--text">CoffeeName</div>
+            <nav class="navbar">
+                <ul class="d-flex justify-content-around section--one-menu">
+                    <a href="#1" class="color--text"><li>Home</li></a>
+                    <a href="#2" class="pl-5 color--text"><li>Explore Us</li></a>
+                    <a href="" class="pl-5 color--text"><li>Brands</li></a>
+                    <a href="" class="pl-5 color--text"><li>Contact us</li></a>
                 </ul>
             </nav>
-            <div class="p-2">
-                <div>Sign up/Login</div>
-                <div class="btn color-secondary">
-                    <img src="assets/images/apple.svg" alt="Logo da Apple">
+            <div class="">
+                <div class="btn btn-sm color-secondary rounded">Sign up/Login</div>
+                <div class="btn btn-sm color-secondary ml-2 rounded" >
+                    <img class="" height="20px" src="assets/images/apple.svg" alt="Logo da Apple">
                     Get the app
                 </div>
             </div>
         </header>
+        <img class="section--one-img" src="/assets/images/bg-Image.jpg" alt="Imagem de fundo, uma mão segurando café">
+        <div class="d-flex flex-column m-auto section--one-text align-items-center">
+            <h1 class="color--text font-weight-bold">Power up with coffee</h1>
+            <p class="color--text-aux">Start your exciting day with a cup of Brew Coffee</p>
+
+            <div class="btn color--text color--button-gradient pl-4 pr-4 w-50 rounded mt-5">Explore Us</div>
+        </div>    
     </section>
+    
 </body>
+
 </html>
