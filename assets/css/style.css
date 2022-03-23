@@ -1,0 +1,13 @@
+:root {
+    --color-primary: #C08267;
+    --color-secondary: #A0583C;
+    --color-aux: #CCB9B1;
+}
+
+
+.color-primary {
+    background-color: var(--color-primary);
+}
+.color-secondary {
+    color: white;
+}
