@@ -69,3 +69,43 @@ border-radius: 18px;
     border: 3px solid var(--color-secondary);
     height: 0;
 }
+.section--two-cards-item {
+    margin-left: 5px;
+}
+
+.img-1 {
+    background-image: url(/assets/images/card1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 150px;
+    width: 100%;
+
+}
+.img-2 {
+    background-image: url(/assets/images/card2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 150px;
+    width: 100%;
+
+}
+.img-3 {
+    background-image: url(/assets/images/card3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 150px;
+    width: 100%;
+
+}
+.img-4 {
+    background-image: url(/assets/images/card4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 150px;
+    width: 100%;
+
+}
